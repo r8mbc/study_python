@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abs/tasks/abc083_b
+
 n, a, b = map(int, input().split())
 
 add = 0

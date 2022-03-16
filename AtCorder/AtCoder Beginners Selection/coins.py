@@ -1,3 +1,5 @@
+# https://atcoder.jp/contests/abs/tasks/abc087_b
+
 a = int(input())
 b = int(input())
 c = int(input())
