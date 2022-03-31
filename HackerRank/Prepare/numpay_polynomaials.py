@@ -2,8 +2,10 @@
 
 import numpy
 
-A = numpy.array(input().split(), float)
-B = int(input())
+def arrays(arr):
+    A = numpy.array(arr, float)
+    return A[::-1]
 
-
-print(numpy.polyval(A, B))
+arr = input().strip().split(' ')
+result = arrays(arr)
+print(result)
