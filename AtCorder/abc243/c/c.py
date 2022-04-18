@@ -15,8 +15,26 @@ def Yes():
     exit(0)
 
 
-if len(set(s)) == 1 or len(set(y)) == n:
-    print("No")
-    exit(0)
+r_min = dict()
+l_max = dict()
+
+for i in range(n):
+    if s[i] == "R":
+        if y[i] in r_min:
+            r_min[y[i]] = min(x[i], r_min[y[i]])
+        else:
+            r_min[y[i]] = x[i]
+    else:
+        if y[i] in l_max:
+            l_max[y[i]] = max(x[i], l_max[y[i]])
+        else:
+            l_max[y[i]] = x[i]
+
+    if s[i] == "R":
+        if y[i] in l_max and x[i] < l_max[y[i]]:
+            Yes()
+    else:
+        if y[i] in r_min and x[i] > r_min[y[i]]:
+            Yes()
 
 print("No")

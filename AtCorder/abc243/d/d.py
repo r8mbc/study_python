@@ -2,17 +2,21 @@ n, x = map(int, input().split())
 s = input()
 
 
-1 2 4 8 16
-1 3 7 15 
+# 無意味な移動を消す
+A = []
 
-
-
-# 層
-start = 0
-for i in range(len(s)):
-    if s[i] == "U":
-        start -= 1
+for i in s:
+    if i == "U" and len(A) > 0 and A[-1] != "U":
+        A.pop()
     else:
-        start += 1
+        A.append(i)
 
+for i in A:
+    if i == "U":
+        x = x // 2
+    elif i == "R":
+        x = x * 2 + 1
+    else:
+        x *= 2
 
+print(x)
