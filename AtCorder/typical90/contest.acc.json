@@ -29,25 +29,41 @@
       "id": "typical90_c",
       "label": "003",
       "title": "Longest Circular Road（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_c"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_c",
+      "directory": {
+        "path": "003",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_d",
       "label": "004",
       "title": "Cross Sum（★2）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_d"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_d",
+      "directory": {
+        "path": "004",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_e",
       "label": "005",
       "title": "Restricted Digits（★7）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_e"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_e",
+      "directory": {
+        "path": "005",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_f",
       "label": "006",
       "title": "Smallest Subsequence（★5）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_f"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_f",
+      "directory": {
+        "path": "006",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_g",
