@@ -69,13 +69,21 @@
       "id": "typical90_g",
       "label": "007",
       "title": "CP Classes（★3）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_g"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_g",
+      "directory": {
+        "path": "007",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_h",
       "label": "008",
       "title": "AtCounter（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_h",
+      "directory": {
+        "path": "008",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_i",
