@@ -119,7 +119,11 @@
       "id": "typical90_l",
       "label": "012",
       "title": "Red Painting（★4）",
-      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l"
+      "url": "https://atcoder.jp/contests/typical90/tasks/typical90_l",
+      "directory": {
+        "path": "012",
+        "testdir": "tests"
+      }
     },
     {
       "id": "typical90_m",
