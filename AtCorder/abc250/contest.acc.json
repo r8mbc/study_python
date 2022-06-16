@@ -39,7 +39,11 @@
       "id": "abc250_d",
       "label": "D",
       "title": "250-like Number",
-      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_d"
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_d",
+      "directory": {
+        "path": "d",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc250_e",
