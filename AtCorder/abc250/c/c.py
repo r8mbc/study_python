@@ -1,32 +1,24 @@
 #!/usr/bin/env python3
 
+n, q = map(int, input().split())
 
-def solve():
-    n, q = map(int, input().split())
+idx = [i for i in range(n + 1)]
+A = [i for i in range(n + 1)]
 
-    X = list(int(input()) for _ in range(q))
+for i in range(q):
+    x = int(input())
 
-    a = list(range(1, n + 1))
+    doko = idx[x]
+    if doko == n:
+        change = doko - 1
+    else:
+        change = doko + 1
 
-    for i in range(len(X)):
-        for k in range(i + 1, len(X)):
-            if (X[i] + 1) == X[k]:
-                X.remove(X[i])
-                X.remove(X[k])
-            elif X[i] == X[k]:
-                break
+    y = A[change]
 
-    print(X)
+    A[doko], A[change] = A[change], A[doko]
 
-    for i in X:
-        b = a.index(i)
+    idx[x] = change
+    idx[y] = doko
 
-        if b + 1 == n:
-            a[b], a[b - 1] = a[b - 1], a[b]
-        else:
-            a[b], a[b + 1] = a[b + 1], a[b]
-
-    return a
-
-
-print(*solve())
+print(*A[1:])
