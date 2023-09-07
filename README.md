@@ -5,9 +5,12 @@
 Python3かPyPyで提出しています。
 
 ▼解いた問題の色の割合はこちら
+
 https://kenkoooo.com/atcoder/#/user/highchu?userPageTab=Difficulty+Pies
+※色のない問題もあります（例：競技プログラミングの鉄則本掲載問題）
 
 ▼解いた問題の一覧はこちら
+
 https://kenkoooo.com/atcoder/#/table/highchu
 
 ## HackerRankについて
